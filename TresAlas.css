@@ -1,0 +1,39 @@
+:root { /* es la raiz de mi documento*/
+
+--naranja:#F90;  /* declaro la variable con nombre y le asigno un valor*/
+--negro: #000;
+--blanco: #FFF;
+--gris01: #333;
+--gris02: #BBB;
+
+
+
+}
+
+
+body{
+
+    background-color: var(--naranja);
+}
+/* con var () llamo a mi variable*/
+
+
+/* variables de css 
+son lo que permite guardar
+los datoss como colores, numeros,tamaños
+cascada: algunas propiedades se van heredando (por ejemplo si quiero que 
+todo mi sitio sea en arial 12
+
+*/
+h1{
+
+color: var(--gris01);
+background-color: var(--blanco);
+}
+
+p{
+
+    color: var(--blanco);
+
+    background-color: var(--gris01);
+}
