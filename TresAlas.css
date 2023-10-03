@@ -63,31 +63,53 @@ color: var(--naranja);
       border-radius: 8px;
       border-left: 1px solid var(--negro);
     padding bottom: 40px;
-    }
+
+
+
+}
 
    /* trabajando la navegacion*/
   
 .nav {
-    background-color: aqua;
+   
+   background-color: aqua;
+
 }
 .nav-lista {
-    background-color: purple;
+    background-color: var(--naranja);
     /* Sacos los puntitos a la lista */
-    list-style-type: none;
+   list-style-type: none;
+
     /* Sacamos el padding-left predeterminado */
     padding-left: 0;
+   display: flex;
+   align-items: center; /* me alinea todo al centro*/
+    padding: 10px 16px;
 }
 .nav-lista li {
-    background-color: violet;
+    flex-grow: 1
+    
+
 }
 .nav-lista a {
-    background-color: tomato;
     /* Los transformo en elementos de bloque */
     display: block;
+    padding: 4px 8px;
+    text-align: center;
+border-right: 1px var(--blanco);
+font-weight: bold; /* CHEQUEAR*/
+color: var(--blanco);
 }
+
+
 .nav-lista a:hover {
-    background-color: maroon;
+
+    background-color: var(--gris01);
+   
+    
 }
-.nav-form {
-    background-color: seashell;
+.nav-form { /* esto es el BUSCAR*/
+    
+    text-align: right; /* me ubica al formulario del lado derecho*/
+    min-width: 450px;
 }
