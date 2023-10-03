@@ -13,7 +13,10 @@
 
 body{
 
-    background-color: var(--naranja);
+    background-color: var(--gris01);
+    background-image: url(./pattern.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    /* el font family es hereditario */
 }
 /* con var () llamo a mi variable*/
 
@@ -52,10 +55,18 @@ le ponen los mismos margenes a la derecha e izquierda*/
  background-color: aqua;
 display: flex;
 justify-content: space-between;
+color: var(--naranja);
 }
 
-.contenido{
 
-    background-color: chartreuse;
-}
+    .contenido{
+        background-color: chartreuse;
+      border-radius: 8px;
+      border-left: 1px solid var(--negro);
+    padding bottom: 40px;
+    }
+
+   
+
+
 
