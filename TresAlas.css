@@ -43,7 +43,6 @@ p{
 
 */
 .contenedor{
-background-color: pink;
 max-width: 1200px; /* limito el ancho a 1200px*/
 margin-left: auto;
 margin-right: auto;
@@ -52,7 +51,7 @@ le ponen los mismos margenes a la derecha e izquierda*/
 }
 
 .cabecera{
- background-color: aqua;
+
 display: flex;
 justify-content: space-between;
 color: var(--naranja);
@@ -60,13 +59,35 @@ color: var(--naranja);
 
 
     .contenido{
-        background-color: chartreuse;
+        background-color: var(--blanco);
       border-radius: 8px;
       border-left: 1px solid var(--negro);
     padding bottom: 40px;
     }
 
-   
-
-
-
+   /* trabajando la navegacion*/
+  
+.nav {
+    background-color: aqua;
+}
+.nav-lista {
+    background-color: purple;
+    /* Sacos los puntitos a la lista */
+    list-style-type: none;
+    /* Sacamos el padding-left predeterminado */
+    padding-left: 0;
+}
+.nav-lista li {
+    background-color: violet;
+}
+.nav-lista a {
+    background-color: tomato;
+    /* Los transformo en elementos de bloque */
+    display: block;
+}
+.nav-lista a:hover {
+    background-color: maroon;
+}
+.nav-form {
+    background-color: seashell;
+}
