@@ -118,7 +118,7 @@ margin-bottom: 40px; /* con esto lo separo del contenido de texto */
 /* trabajando categorias*/
 .main{
 
-    background-color: rgb(223, 38, 167);
+    background-color: palevioletred;
     display: grid; /* esto lo convierte en una GRILLA*/
     gap: 20px; /* el gap es el espacio entre LAS DOS COLUMNAS*/
     grid-template-columns: 230px 1fr; /* ancho fijo para categorias y 1fr para prodcutos*/
@@ -128,26 +128,34 @@ margin-bottom: 40px; /* con esto lo separo del contenido de texto */
 .categorias{
 
     background-color: aqua;
-    
-list-style-type: none;   /* Sacos los puntitos a la lista */
+  
 }
-
+.categorias1{
+    list-style-type: none; /* Sacos los puntitos a la lista */
+}
 .productos{
-background-color: #333;
-display:grid;
-grid-template-columns: 1fr 1fr;
-gap: 20px;
-
+    
+    background-color: var(--blanco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .lampara{
 
-    background-color: #d43030;
+    background-color: var(--blanco)
     font-weight: bold; /* para poner las letras en negrita*/
+    
 }
 
 .texto{
 
     font-size: small;
     font-weight: 200;
+ 
+}
+
+.imagen{
+
+text-align:right
 }
