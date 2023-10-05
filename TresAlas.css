@@ -25,23 +25,9 @@ body{
 son lo que permite guardar
 los datoss como colores, numeros,tamaños
 cascada: algunas propiedades se van heredando (por ejemplo si quiero que 
-todo mi sitio sea en arial 12
+todo mi sitio sea en arial 12*/
 
-*/
-/* h1{
 
-color: var(--gris01);
-background-color: var(--blanco);
-}
-
-p{
-
-    color: var(--blanco);
-
-    background-color: var(--gris01);
-}
-
-*/
 .contenedor{
 max-width: 1200px; /* limito el ancho a 1200px*/
 margin-left: auto;
@@ -62,6 +48,7 @@ color: var(--naranja);
         background-color: var(--blanco);
       border-radius: 8px;
       border-left: 1px solid var(--negro);
+      border right: 1px solid var(--negro);
     padding bottom: 40px;
 
 
@@ -73,7 +60,7 @@ color: var(--naranja);
 .nav {
    
    background-color: aqua;
-
+   
 }
 .nav-lista {
     background-color: var(--naranja);
@@ -85,6 +72,7 @@ color: var(--naranja);
    display: flex;
    align-items: center; /* me alinea todo al centro*/
     padding: 10px 16px;
+   
 }
 .nav-lista li {
     flex-grow: 1
@@ -97,19 +85,32 @@ color: var(--naranja);
     padding: 4px 8px;
     text-align: center;
 border-right: 1px var(--blanco);
-font-weight: bold; /* CHEQUEAR*/
+font-weight: bold; /* para poner las letras en negrita*/
 color: var(--blanco);
+text-decoration: none;
+
+
 }
 
 
 .nav-lista a:hover {
 
-    background-color: var(--gris01);
-   
+    color: var(--gris01);
+   /* con esto logro que cambie de color cuando paso
+   el cursor*/
     
 }
 .nav-form { /* esto es el BUSCAR*/
     
     text-align: right; /* me ubica al formulario del lado derecho*/
     min-width: 450px;
+}
+
+/* Slider*/
+
+.slider{
+
+text-align: center;
+margin-bottom: 40px; /* con esto lo separo del contenido de texto */
+
 }
